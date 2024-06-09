@@ -6,9 +6,9 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f"""
 ✨ **ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/GOD_AYUSH_PYROGRAM_V1) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/ll_DRAGON_XD_ll) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
-**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/GOD_AYUSH_PYROGRAM_V1)** ✨
+**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/ll_DRAGON_XD_ll)** ✨
 """
 HELP_BUTTON = [
     [
@@ -97,7 +97,7 @@ extra_msg = f"""
 🔸 {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
 🔸 {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @GOD_AYUSH_PYROGRAM_CLIENT**
+**© @ll_DRAGON_XD_ll**
 """
 
 
@@ -109,7 +109,7 @@ owner_msg = f"""
 👨‍💻 ᴜꜱᴀɢᴇ :
 🔸 {hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @GOD_AYUSH_PYROGRAM_CLIENT**
+**© @ll_DRAGON_XD_ll**
 """      
           
 raid_msg = f"""
@@ -133,7 +133,7 @@ raid_msg = f"""
 🔸 {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @GOD_AYUSH_PYROGRAM_CLIENT**
+**© @ll_DRAGON_XD_ll**
 """
 
 spam_msg = f"""
@@ -176,7 +176,7 @@ spam_msg = f"""
 🔸 {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @GOD_AYUSH_PYROGRAM_V1**
+** © @ll_DRAGON_XD_ll **
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -205,7 +205,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @ll_DRAGON_XD_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -243,7 +243,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @ll_DRAGON_XD_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -262,4 +262,4 @@ async def help_extra(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
+        await event.answer("DRAGON SE SUDO LEKE PAPA BOLNA RANDI KE  @ll_DRAGON_XD_ll", cache_time=0, alert=True)
