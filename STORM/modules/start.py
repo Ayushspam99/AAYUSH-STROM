@@ -3,7 +3,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "@KOYEB_BOLTA_HAIN),
+        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/KOYEB_BOLTA_HAIN),
     ],
     [
         Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/KOYEB_KI_MAA_KO_CHODO"),
