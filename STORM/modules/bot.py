@@ -13,17 +13,17 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ꜱ ᴛ ᴏ ʀ ᴍ"
-PIC = "https://telegra.ph/file/20e905f22c14c40d9bba7.jpg"
+PIC = "https://telegra.ph/file/56e9bf35e92981edf4afe.jpg"
 Alivemsg = "ꜱᴛᴏʀᴍ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
-TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
+TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • JINDA HU SALE SINCE 1:40 AM • ㅤㅤㅤ\n"
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤ ʙᴏᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ‌🪽\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
 TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
-TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/ll_DRAGON_XD_SUPPORT_ll)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/ll_DRAGON_XD_SUPPORT_ll)**\n"
-TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/ll_DRAGON_XD_ll)**\n"
+TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/KOYEB_KI_MAA_KO_CHODO)**\n"
+TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/KOYEB_KI_MAA_KO_CHODO)**\n"
+TEXT += f"**• OWNER 🫂: [AYUSH 🥀](https://t.me/KOYEB_KI_MAA_KO_CHODO)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -43,8 +43,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_DRAGON_XD_SUPPORT_ll"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_DRAGON_XD_SUPPORT_ll")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/KOYEB_KI_MAA_KO_CHODO"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/KOYEB_KI_MAA_KO_CHODO")
         ],
         ]
         )
@@ -213,7 +213,8 @@ async def addsudo(event):
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **DRAGON KI NEW AUALD ADD HO RAHI HAIN🐉**: `{target}`\n» ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
+            await ok.edit(f"» **DRAGON KI NEW AUALD ADD HO RAHI HAIN🐉**: `{target}`\n» BEHEN KE LODE RUKH
+            JA...")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
@@ -231,7 +232,7 @@ async def addsudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`ʀᴇꜱᴛᴀʀᴛɪɴɢ ⌛ ...`")
+        await e.reply(f"`RUK SALE ⌛ ...`")
         try:
             await X1.disconnect()
         except Exception:
