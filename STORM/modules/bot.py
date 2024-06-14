@@ -123,7 +123,7 @@ async def logs(KEX):
 
     elif KEX.sender_id in SUDO_USERS:
         await KEX.reply("» ABE RAAND SIRF MAALIK YEH COMAAND USE KR SKTE NOKAR NAHI😂🌚.")        
-      ")
+      )
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
