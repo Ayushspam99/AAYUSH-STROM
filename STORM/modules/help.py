@@ -6,9 +6,9 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f"""
 ✨ **ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/ll_DRAGON_XD_ll) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/KOYEB_KI_MAA_KO_CHODO) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
-**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/ll_DRAGON_XD_ll)** ✨
+**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/KOYEB_KI_MAA_KO_CHODO)** ✨
 """
 HELP_BUTTON = [
     [
@@ -36,7 +36,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/20e905f22c14c40d9bba7.jpg",
+              "https://telegra.ph/file/56e9bf35e92981edf4afe.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -176,7 +176,7 @@ spam_msg = f"""
 🔸 {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @ll_DRAGON_XD_ll **
+** © @KOYEB_BOLTA_HAIN **
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -205,7 +205,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @ll_DRAGON_XD_ll", cache_time=0, alert=True)
+        await event.answer("PEHLE DRAGON PAPA SE SUDO LELO PAPA BOLNA RANDI KE @KOYEB_BOLTA_HAIN", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -224,7 +224,7 @@ async def help_spam(event):
               buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
+        await event.answer("PEHLE DRAGON PAPA SE SUDO LELO PAPA BOLNA RANDI KE @KOYEB_BOLTA_HAIN", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -243,7 +243,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @ll_DRAGON_XD_ll", cache_time=0, alert=True)
+        await event.answer("PEHLE DRAGON PAPA SE SUDO LELO PAPA BOLNA RANDI KE @KOYEB_BOLTA_HAIN", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
