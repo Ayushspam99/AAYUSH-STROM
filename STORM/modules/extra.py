@@ -46,10 +46,10 @@ async def echo(event):
                 global ECHO
                 check = f"{user_id}_{event.chat_id}"
                 if check in ECHO:
-                    await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅ !!")
+                    await event.reply("» AB ME TERI COPY KARUNGA 🥲✅ !!")
                 else:
                     ECHO.append(check)
-                    await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅ !!")
+                    await event.reply("»AB ME TERI COPY KARUNGA ✅ !!")
         else:
             await event.reply(f"{hl}ᴇᴄʜᴏ <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
